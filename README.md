@@ -118,5 +118,8 @@ If you prefer to run the backend directly on your machine:
     ```bash
     python -c "from app.core.database import SessionLocal; from app.models.models import User; from app.core.security import get_password_hash; db = SessionLocal(); u = User(full_name='Demo', email='demo@user.com', password_hash=get_password_hash('password')); db.add(u); db.commit(); print('User Created!'); db.close()"
     ```
-
+5.  **Run Backend:**
+    ```bash
+    python -m app.main
+    ```
 
