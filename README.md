@@ -69,3 +69,9 @@ This is the easiest way to run the full stack (Backend + Database) without depen
     GOOGLE_API_KEY=your_google_gemini_api_key_here
     DATABASE_URL=postgresql+asyncpg://postgres:password@db:5432/placement_db
     SECRET_KEY=your-secret-key
+    ```
+
+3.  **Run Docker Compose:**
+    ```bash
+    docker-compose up --build
+    ```
