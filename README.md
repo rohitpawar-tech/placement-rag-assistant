@@ -70,6 +70,10 @@ This is the easiest way to run the full stack (Backend + Database) without depen
     DATABASE_URL=postgresql+asyncpg://postgres:password@db:5432/placement_db
     SECRET_KEY=your-secret-key
     ```
+    3.  **Update `.env` for SQLite:**
+    ```ini
+    DATABASE_URL=sqlite+aiosqlite:///./placement.db
+    GOOGLE_API_KEY=your_google_gemini_api_key_here
 
 3.  **Run Docker Compose:**
     ```bash
