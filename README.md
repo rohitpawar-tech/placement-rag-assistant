@@ -27,3 +27,6 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 **Frontend:**
 *   **Core:** HTML5, CSS3, Vanilla JavaScript
 *   **Style:** Glassmorphism UI, Responsive Design
+**DevOps:**
+*   **Containerization:** Docker, Docker Compose
+*   **Reverse Proxy:** Nginx
