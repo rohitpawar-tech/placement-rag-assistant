@@ -53,3 +53,6 @@ placement-rag-assistant/
 ├── docker-compose.yml
 └── .env                 # Environment Variables
 ```
+## 🚀 Installation & Setup
+
+### Option 1: Docker (Recommended for Production)
