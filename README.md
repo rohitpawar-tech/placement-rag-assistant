@@ -133,3 +133,7 @@ If you prefer to run the backend directly on your machine:
     cd ../frontend
     python -m http.server 5500
     ```
+2.  **Upload Documents:**
+    *   Go to the "Upload Docs" tab.
+    *   Upload your study materials (PDFs/TXT).
+    *   The system will automatically index them for the RAG engine.
