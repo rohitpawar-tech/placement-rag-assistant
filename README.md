@@ -8,3 +8,4 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 [![Docker](https://img.shields.io/badge/Docker-Compose-blue)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 ## 🌟 Features
+*   **AI Chat Assistant:** Context-aware responses powered by Google Gemini and LangChain RAG.
