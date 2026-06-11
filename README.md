@@ -123,3 +123,9 @@ If you prefer to run the backend directly on your machine:
     python -m app.main
     ```
 
+6.  **Run Frontend:**
+    Open a new terminal in the `frontend` folder:
+    ```bash
+    cd ../frontend
+    python -m http.server 5500
+    ```
