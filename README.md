@@ -9,3 +9,4 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 ## 🌟 Features
 *   **AI Chat Assistant:** Context-aware responses powered by Google Gemini and LangChain RAG.
+*   **Document Management:** Upload PDFs, TXT, or DOCX files. The system automatically chunks, embeds, and indexes them using FAISS.
