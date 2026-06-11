@@ -152,3 +152,65 @@ GOOGLE_API_KEY=your_actual_gemini_key
 DATABASE_URL=postgresql+asyncpg://...
 SECRET_KEY=change_this_in_production
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🐛 Troubleshooting
+
+**1. Error: `greenlet library is required`**
+*   **Solution:** Run `pip install "bcrypt<4.0.0"` and ensure you are using `aiosqlite` for local SQLite.
+
+**2. Error: `circular import`**
+*   **Solution:** Ensure `base.py` exists in `app/core` to define the `Base` class separately from the engine.
+
+**3. Error: `ModuleNotFoundError`**
+*   **Solution:** Make sure you are running commands from the `backend` folder and have installed requirements via `pip install -r requirements.txt`.
+
+**4. Render Deployment Error: `DATABASE_URL from string ''`**
+*   **Solution:** On Render Dashboard -> Settings -> Environment, add `DATABASE_URL` pointing to your PostgreSQL instance and add `GOOGLE_API_KEY`.
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Rohit Pawar** - [GitHub](https://github.com/rohitpawar-tech)
+```
