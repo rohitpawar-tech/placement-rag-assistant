@@ -15,3 +15,5 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 *   **Mock Interview System:** Generate HR and technical questions specific to target companies.
 *   **Glassmorphism UI:** Modern, responsive frontend built with vanilla HTML/CSS and JavaScript.
 *   **Production Ready:** Containerized with Docker and deployable on AWS or Render.
+
+## 🛠 Tech Stack
