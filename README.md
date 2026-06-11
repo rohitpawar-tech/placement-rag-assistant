@@ -137,3 +137,6 @@ If you prefer to run the backend directly on your machine:
     *   Go to the "Upload Docs" tab.
     *   Upload your study materials (PDFs/TXT).
     *   The system will automatically index them for the RAG engine.
+3.  **Chat:**
+    *   Ask questions like "Explain the two sum problem" or "What are the key responsibilities of an SDE?".
+    *   The AI will answer based on the documents you uploaded.
