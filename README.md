@@ -75,3 +75,6 @@ This is the easiest way to run the full stack (Backend + Database) without depen
     ```bash
     docker-compose up --build
     ```
+4.  **Access the Application:**
+    *   Frontend: `http://localhost:5500`
+    *   Backend API Docs: `http://localhost:8000/docs`
