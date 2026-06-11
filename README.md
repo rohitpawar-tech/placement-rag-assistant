@@ -30,3 +30,4 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 **DevOps:**
 *   **Containerization:** Docker, Docker Compose
 *   **Reverse Proxy:** Nginx
+## 📸 Project Structure
