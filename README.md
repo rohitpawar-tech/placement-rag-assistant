@@ -63,3 +63,9 @@ This is the easiest way to run the full stack (Backend + Database) without depen
     git clone https://github.com/rohitpawar-tech/placement-rag-assistant.git
     cd placement-rag-assistant/backend
     ```
+2.  **Create Environment Variables:**
+    Create a file named `.env` in the `backend` folder with the following content:
+    ```ini
+    GOOGLE_API_KEY=your_google_gemini_api_key_here
+    DATABASE_URL=postgresql+asyncpg://postgres:password@db:5432/placement_db
+    SECRET_KEY=your-secret-key
