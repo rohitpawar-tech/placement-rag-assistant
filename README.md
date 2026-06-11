@@ -78,3 +78,12 @@ This is the easiest way to run the full stack (Backend + Database) without depen
 4.  **Access the Application:**
     *   Frontend: `http://localhost:5500`
     *   Backend API Docs: `http://localhost:8000/docs`
+### Option 2: Local Development (Python)
+
+If you prefer to run the backend directly on your machine:
+
+1.  **Install Dependencies:**
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    ```
