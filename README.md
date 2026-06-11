@@ -17,3 +17,4 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 *   **Production Ready:** Containerized with Docker and deployable on AWS or Render.
 
 ## 🛠 Tech Stack
+**Backend:**
