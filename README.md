@@ -7,3 +7,4 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 [![LangChain](https://img.shields.io/badge/LangChain-0.1-orange)](https://python.langchain.com/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-blue)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+## 🌟 Features
