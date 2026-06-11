@@ -142,3 +142,13 @@ If you prefer to run the backend directly on your machine:
     *   The AI will answer based on the documents you uploaded.
     *   4.  **Resume Analysis:**
     *   Upload your resume to get an ATS score and improvement tips.
+
+## ⚙️ Configuration
+
+The application relies on a `.env` file located in the `backend` directory. Ensure you have valid keys:
+
+```ini
+GOOGLE_API_KEY=your_actual_gemini_key
+DATABASE_URL=postgresql+asyncpg://...
+SECRET_KEY=change_this_in_production
+```
