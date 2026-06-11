@@ -140,3 +140,5 @@ If you prefer to run the backend directly on your machine:
 3.  **Chat:**
     *   Ask questions like "Explain the two sum problem" or "What are the key responsibilities of an SDE?".
     *   The AI will answer based on the documents you uploaded.
+    *   4.  **Resume Analysis:**
+    *   Upload your resume to get an ATS score and improvement tips.
