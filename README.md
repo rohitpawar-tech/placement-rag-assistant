@@ -87,3 +87,9 @@ If you prefer to run the backend directly on your machine:
     cd backend
     pip install -r requirements.txt
     ```
+    2.  **Fix Known Dependency Issues (Windows Only):**
+    If you encounter errors related to `greenlet` or `bcrypt`, run these fixes:
+    ```bash
+    pip install "bcrypt<4.0.0"
+    pip install aiosqlite
+    ```
