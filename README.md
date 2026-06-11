@@ -56,3 +56,10 @@ placement-rag-assistant/
 ## 🚀 Installation & Setup
 
 ### Option 1: Docker (Recommended for Production)
+This is the easiest way to run the full stack (Backend + Database) without dependency issues.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/rohitpawar-tech/placement-rag-assistant.git
+    cd placement-rag-assistant/backend
+    ```
