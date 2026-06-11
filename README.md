@@ -31,3 +31,25 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 *   **Containerization:** Docker, Docker Compose
 *   **Reverse Proxy:** Nginx
 ## 📸 Project Structure
+
+
+
+```text
+placement-rag-assistant/
+├── backend/
+│   ├── app/
+│   │   ├── api/         # API Endpoints (Auth, Chat, Docs)
+│   │   ├── core/        # Config, Database, Security
+│   │   ├── models/      # SQLAlchemy Models
+│   │   ├── services/    # RAG Logic, Resume Service
+│   │   └── main.py      # Application Entry Point
+│   ├── uploads/         # User Uploaded Documents
+│   ├── vector_db/       # FAISS Indices
+│   ├── Dockerfile
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html       # Single Page App
+│   └── assets/          # Images/Icons
+├── docker-compose.yml
+└── .env                 # Environment Variables
+```
