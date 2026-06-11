@@ -18,3 +18,9 @@ An advanced Retrieval-Augmented Generation (RAG) platform designed to help stude
 
 ## 🛠 Tech Stack
 **Backend:**
+*   **Language:** Python
+*   **Framework:** FastAPI
+*   **AI Engine:** LangChain, Google Generative AI (Gemini)
+*   **Vector Database:** FAISS
+*   **Database:** PostgreSQL (Docker) / SQLite (Local)
+*   **Auth:** JWT (JSON Web Tokens), Passlib
