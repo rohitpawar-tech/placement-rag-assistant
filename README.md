@@ -122,7 +122,11 @@ If you prefer to run the backend directly on your machine:
     ```bash
     python -m app.main
     ```
+## 🔐 Usage
 
+1.  **Login:**
+    *   **Email:** `demo@user.com`
+    *   **Password:** `password`
 6.  **Run Frontend:**
     Open a new terminal in the `frontend` folder:
     ```bash
